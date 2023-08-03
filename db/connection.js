@@ -3,7 +3,7 @@ import chalk from "chalk";
 
 mongoose.set("returnOriginal", false);
 
-mongoose.connect("mongodb://127.0.0.1:27017/potted-foxtails").catch((err) => {
+mongoose.connect("mongodb://127.0.0.1:27017/games-api").catch((err) => {
   console.log(`Error connection to MongoDB: ${err.message}`);
 });
 
